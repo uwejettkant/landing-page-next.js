@@ -22,9 +22,12 @@ export default function Content () {
 
 const ContentWrapper = styled.div`
     padding: 2em 1em;
+
+    > * {
     max-width: 400px;
     margin-left: auto;
     margin-right: auto;
+    }
 
     @media(min-width: 650px) {
     width: 50%;

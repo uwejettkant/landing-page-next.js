@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import Hero from '../components/Hero'
 import Content from '../components/Content'
-import GlobalStyles from '../styles/GlobalStyles'
 
 export default function Home () {
   return (
@@ -12,7 +11,6 @@ export default function Home () {
       </Head>
       
         <body>
-          <GlobalStyles />
           <Hero />
           <Content />
         </body>

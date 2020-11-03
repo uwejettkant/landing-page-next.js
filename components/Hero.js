@@ -21,12 +21,17 @@ background-image: url(https://images.unsplash.com/photo-1522387026079-bd4a4d7311
   flex-direction: column;
   justify-content: space-between;
   min-height: 50vh;
-  max-width: 400px;
-  margin-left: auto;
-  margin-right: auto;
+
+  > * {
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
   @media(min-width: 650px) {
     width: 50%;
-    min-height: 100vh; 
+    min-height: 100vh;
+    align-items: center;
   }
 
   h1 {
@@ -35,9 +40,11 @@ background-image: url(https://images.unsplash.com/photo-1522387026079-bd4a4d7311
   font-weight: 300;
   color: #fff;
   margin: 0;
+
   @media(min-width: 650px) {
     font-size: 3.25rem;
-    }
+  }
+
   }
 
   h1 + p {
