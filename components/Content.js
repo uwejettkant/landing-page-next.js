@@ -14,7 +14,7 @@ export default function Content () {
         <input type='text' required placeholder='name' />
         <input type='text' required placeholder='e-mail' />
         <button>register now</button>
-        <p class='disclaimer'>We'll never share your information without your permission</p>
+        <Disclaimer>We'll never share your information without your permission</Disclaimer>
       </Form>
     </ContentWrapper>
   )
@@ -100,4 +100,9 @@ button {
 button:hover, button:focus {
   transform: scale(1.1);
 }
+`
+
+const Disclaimer = styled.p`
+    font-size: .75rem;
+  letter-spacing: .25px;
 `
