@@ -2,18 +2,33 @@
   "name": "landing-page-next.js",
   "version": "0.1.0",
   "private": true,
+  "description": "A simple static landing-page static with Next.js and React",
+  "author": {
+    "name": "Uwe Jettkant",
+    "email": "info@webentwicklung-jettkant.de",
+    "url": "https://webentwicklung-jettkant.de"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/uwejettkant/landing-page-next.js"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "test": "standard && node my-tests.js"
+    "test": "standard && node my-tests.js",
+    "prettier": "prettier --write \"**/*.{html,js,md,yml}\""
   },
   "dependencies": {
     "next": "10.0.0",
     "react": "17.0.1",
-    "react-dom": "17.0.1"
+    "react-dom": "17.0.1",
+    "styled-components": "^5.2.1"
   },
   "devDependencies": {
-    "standard": "^16.0.1"
+    "prettier": "^2.1.2",
+    "standard": "^16.0.1",
+    "babel-plugin-styled-components": "^1.8.0"
   }
 }
